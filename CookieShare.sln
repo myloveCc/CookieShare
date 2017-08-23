@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.10
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebA", "WebA\WebA.csproj", "{4FC273C8-515D-4DF8-82F4-2C69657A2E3D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebB", "WebB\WebB.csproj", "{B4BB255F-BAAF-4CF3-B1C3-C485A49A21DB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CookieInstance", "CookieInstance\CookieInstance.csproj", "{8083F3C5-67BE-4134-AD3F-8DAED8E0FD5E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4FC273C8-515D-4DF8-82F4-2C69657A2E3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FC273C8-515D-4DF8-82F4-2C69657A2E3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FC273C8-515D-4DF8-82F4-2C69657A2E3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FC273C8-515D-4DF8-82F4-2C69657A2E3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4BB255F-BAAF-4CF3-B1C3-C485A49A21DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4BB255F-BAAF-4CF3-B1C3-C485A49A21DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4BB255F-BAAF-4CF3-B1C3-C485A49A21DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4BB255F-BAAF-4CF3-B1C3-C485A49A21DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8083F3C5-67BE-4134-AD3F-8DAED8E0FD5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8083F3C5-67BE-4134-AD3F-8DAED8E0FD5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8083F3C5-67BE-4134-AD3F-8DAED8E0FD5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8083F3C5-67BE-4134-AD3F-8DAED8E0FD5E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1FD7BB54-8C7D-4BB0-8E26-329811CDD836}
+	EndGlobalSection
+EndGlobal
