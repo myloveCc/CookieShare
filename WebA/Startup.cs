@@ -35,11 +35,13 @@ namespace WebA
                      options.Cookie.SameSite = SameSiteMode.Lax;
                  });
 
-            services.AddDataProtection()
-                .SetApplicationName("cookieshare")
-                //windows、Linux、macOS 下可以使用此种方式 保存到文件系统
-                .PersistKeysToFileSystem(new System.IO.DirectoryInfo("C:\\share_keys"));
+            //部署同一服务器
+            //services.AddDataProtection()
+            //    .SetApplicationName("cookieshare")
+            //    //windows、Linux、macOS 下可以使用此种方式 保存到文件系统
+            //    .PersistKeysToFileSystem(new System.IO.DirectoryInfo("C:\\share_keys"));
 
+            //部署不同服务器
             services.AddDataProtection()
                 .SetApplicationName("cookieshare")
                 .AddKeyManagementOptions(options =>
